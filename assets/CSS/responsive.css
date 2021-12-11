@@ -1,0 +1,145 @@
+/* PC */
+@media (min-width:64em){
+
+    
+}
+
+/* tablet */
+@media (min-width:46.25em) and (max-width:63.9375em) {
+
+
+
+}
+
+
+/* tablet + iphone */
+@media (max-width:63.9375em){
+
+    .btn{
+        padding:  15px 16px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+        font-size: 16px;
+    }
+    .social a i {
+        font-size:42px;
+        margin: 0px 8px;
+
+    }
+    .copyright{
+        font-size: 30px;
+    }
+    .copyright a{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: inline-block;
+    }
+    #nav .subnav li{
+        padding: 5px 12px;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    
+    .contact-info a:hover{
+        opacity: 1;
+    }
+    .contact-submit-btn{
+        font-size: 16px;
+        -webkit-appearance: none;
+    }
+    #slider .text-description{
+        text-shadow: 0 0 1px #000;
+    }
+}
+
+
+
+/* phone */
+@media (max-width: 46.1875em) {
+    
+
+    #nav>li{
+        display: block;
+    }
+
+    #nav>li:first-child{
+        display: inline-block;
+    }
+
+    #header{
+
+        overflow: hidden;
+    }
+
+
+    #header .search-btn{
+
+        display: none;
+    }
+
+    #nav .subnav{
+        
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: white;
+        padding: 5px 41px;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    .mobile-menu-button{
+        display: block;
+        float: right;
+        position: absolute;
+        padding: 0 21px;
+        top: 0;
+        right: 0;
+    
+        
+    }
+    #nav{
+        display: block;
+    }
+    #content .s-co-full,
+    .s-full-width
+    {
+        width:100%;
+
+
+    }
+    #content .member-list img{
+        width: 60%;
+        margin-bottom: 16px;
+    }
+    #content .place-list{
+        margin-top: 16px;
+    } 
+    .s-mt-8{
+        margin-top: 8px;
+    }
+    .btn{
+        width: 100%;
+        text-align: center;
+    }
+    #footer .social {
+        font-size: 19px;
+    }
+    .copyright {
+        font-size: 25px;
+    }
+    /* #myVideo-2 { display: none; }
+    body,
+    #footer {
+      background-color: rgba(0,0,0,0.4);
+        background-size: cover;
+    }
+    #content{
+        background-color:rgba(0,0,0,0.4);
+    } */
+}
